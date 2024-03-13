@@ -30,6 +30,7 @@ spec:
               cpu: 500m
               memory: 512Mi
           env:
+            # pøls
             # load namespace from downward api
             # https://github.com/kubernetes/kubernetes/blob/release-1.0/docs/user-guide/downward-api.md
             - name: NAMESPACE
